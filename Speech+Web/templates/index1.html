@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1> Microphone : </h1>
+    <form method="post" action="/">
+        <input type="submit" value="Tap to Speak" name="action1">
+    </form>
+    {% if command != "" %}
+    <div id="MicOut">
+        <h2> Microphone Output </h2>
+        <p>{{command}}</p>
+        <form method="post" action="/">
+            <input type ="submit" value="Resubmit" name ="action2">
+        </form>
+    </div>
+    {% endif %}
+</head>
+<body>
+
+</body>
+</html>
