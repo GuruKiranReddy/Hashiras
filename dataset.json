@@ -1,0 +1,204 @@
+{
+      "intents": [
+            {
+                  "intent": "None",
+                  "text": [
+                        "I dont have any disease",
+                        "I do not suffer from any disease ",
+                        "No I do not have any disease",
+                        "None",
+                        "I am healthy",
+                        "Not yet"
+                  ],
+                  "responses": [
+                        "you have no Disease"
+                  ]
+            },
+            {
+                  "intent": "Others",
+                  "text": [
+                        "I have breathing problem",
+                        "I am paralysed",
+                        "I cant hear",
+                        "I am not able to see properly",
+                        "I have a blur vision",
+                        "I am constipated",
+                        "My hand is bleeding",
+                        "I have a sore throat",
+                        "I have dengue",
+                        "malaria"
+                  ],
+                  "responses": [
+                        "you have a different disease "
+                  ]
+            },
+            {
+                  "intent": "diabetes",
+                  "text": [
+                        "diabetes",
+                        "I have sugar",
+                        "Hi I have diabetes",
+                        "Yes I have diabetes",
+                        "Hello I have diabetes",
+                        "I have diabetes",
+                        "I am diagnosed with diabetes",
+                        "I am diagnosed with diabetic",
+                        "I am  diabetic",
+                        "Yes I am diabetic"
+                  ],
+                  "responses": [
+                        "you have diabetes"
+                  ]
+            },
+            {
+                  "intent": "no diabetes",
+                  "text": [
+                        "I dont have diabetes",
+                        "I do not suffer from diabetes ",
+                        "I am not diabetic"
+                  ],
+                  "responses": [
+                        "you have no diabetes"
+                  ]
+            }, {
+                  "intent": "thyroid",
+                  "text": [
+                        "thyroid",
+                        "Hi I have thyroid",
+                        "Yes I have thyroid",
+                        "Hello I have thyroid",
+                        "I have thyroid",
+                        "I am diagnosed with thyroid"
+                  ],
+                  "responses": [
+                        "you have thyroid"
+                  ]
+            },
+            {
+                  "intent": "no thyroid",
+                  "text": [
+                        "I dont have thyroid",
+                        "I do not suffer from thyroid "
+                  ],
+                  "responses": [
+                        "you have no thyroid"
+                  ]
+            },
+            {
+                  "intent": "cancer",
+                  "text": [
+                        "cancer",
+                        "Hi I have cancer",
+                        "Yes I have cancer",
+                        "Hello I have cancer",
+                        "I have cancer",
+                        "I am diagnosed with cancer",
+                        "Yes I have cancer",
+                        "I have a lump on my neck"
+                  ],
+                  "responses": [
+                        "you have cancer"
+                  ]
+            },
+            {
+                  "intent": "no cancer",
+                  "text": [
+                        "I dont have cancer",
+                        "I do not suffer from cancer ",
+                        "No I do not have cancer"
+                  ],
+                  "responses": [
+                        "you have no cancer"
+                  ]
+            },
+            
+            {
+                  "intent": "Diabetes and Thyroid",
+                  "text": [
+                        "I havee diabetes and thyroid",
+                        "I think i have diabetes and thyroid ",
+                        "I suffer from both diabetes and thyroid",
+                        "I am diabetic and also have thyroid"
+                  ],
+                  "responses": [
+                        "you have diabetes and thyroid "
+                  ]
+            },
+            {
+                  "intent": "Diabetes and Cancer",
+                  "text": [
+                        "I havee diabetes and cancer",
+                        "I think i have diabetes and cancer ",
+                        "I suffer from both diabetes and cancer",
+                        "I am diabetic and also have cancer"
+                  ],
+                  "responses": [
+                        "you have diabetes and cancer"
+                  ]
+            },
+            {
+                  "intent": "Thyroid and cancer",
+                  "text": [
+                        "I have Thyroid and cancer",
+                        "I think i have Thyroid  and cancer ",
+                        "I suffer from both Thyroid  and cancer",
+                        "I have Thyroid  and also have cancer"
+                  ],
+                  "responses": [
+                        "you have Thyroid  and cancer"
+                  ]
+            },
+            {
+                  "intent": "Diabetes and others",
+                  "text": [
+                        "I havee diabetes and breathing problem",
+                        "I think i have diabetes and sore throat ",
+                        "I suffer from both diabetes and breathing problem",
+                        "I am diabetic and also have sore throat"
+                  ],
+                  "responses": [
+                        "you have diabetes and other disease"
+                  ]
+            },
+            {
+                  "intent": "Thyroid and others",
+                  "text": [
+                        "I have Thyroid and breathing problem",
+                        "I think i have Thyroid  and sore throat ",
+                        "I suffer from both Thyroid and breathing problem",
+                        "I have Thyroid and also have sore throat"
+                  ],
+                  "responses": [
+                        "you have Thyroid  and other disease"
+                  ]
+            },
+            {
+                  "intent": "cancer and other",
+                  "text": [
+                        "I havee cancer and breathing problem",
+                        "I think i have cancer  and sore throat ",
+                        "I suffer from both cancer and breathing problem",
+                        "I have cancer and also have sore throat"
+                  ],
+                  "responses": [
+                        "you have cancer and other disease"
+                  ]
+            },
+            {
+                  "intent": "less than 2L",
+                  "text": [
+                        "My income is 10000",
+                        "1000 ",
+                        "19999",
+                        "Income is 1.5L",
+                        "2k",
+                        "Income is 1 Lakh 10 thousand"
+                  ],
+                  "responses": [
+                        "your income is less than 2 lakhs"
+                  ]
+            }
+            
+      
+      ]
+}
